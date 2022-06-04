@@ -1,7 +1,24 @@
 ## SLC (Socket Lost Control)
 
+
+### Installing
+Clone this repos
+
+```
+cd slc;
+
+apt install clang -y;
+
+clang++ -Wall -Wextra -O3 slc.cpp -o slc -lpthread;
+```
 ### Basic Usage
 
+```bash
+  ./slc client 127.0.0.1 5555 123.123.123.123 9999
+  ./slc server 123.123.123.123 9999 0.0.0.0 9998
+```
+
+> The real clients access 0.0.0.0 9998
 
 ### Funtion
 The function of SLC is to make isolated space accessible via IP + public port (TCP only). Similar to socat, but more scalable, multithreaded and reusable. Use case not only SSH, all applications that use TCP can be integrated with SLC.
