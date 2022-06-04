@@ -11,6 +11,12 @@ apt install clang -y;
 
 clang++ -Wall -Wextra -O3 slc.cpp -o slc -lpthread;
 ```
+or on debian/ubuntu you can download the deb file from release
+```bash
+chmod +x slc_1.0-1.deb
+sudo apt install ./slc_1.0-1.deb
+```
+
 ### Basic Usage
 
 ```bash
@@ -58,3 +64,6 @@ Here's how it works, use stories to make it fun:
 > full P2P without server right?
 
 Can not. You need Tor if that's the case (Tor actually has servers too)
+
+## License
+This repo is under [GPL-2.0](LICENSE) license
