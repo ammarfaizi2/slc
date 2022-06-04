@@ -1,5 +1,9 @@
-## SLC (Control Lost Socket)
+## SLC (Socket Lost Control)
 
+### Basic Usage
+
+
+### Funtion
 The function of SLC is to make isolated space accessible via IP + public port (TCP only). Similar to socat, but more scalable, multithreaded and reusable. Use case not only SSH, all applications that use TCP can be integrated with SLC.
 
 > What kind of isolated room, for example?
