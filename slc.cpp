@@ -600,9 +600,9 @@ out_free:
 
 	socket_bridge(fd_pa, fd_pb);
 out:
-	if (fd_pa == -1)
+	if (fd_pa != -1)
 		close(fd_pa);
-	if (fd_pb == -1)
+	if (fd_pb != -1)
 		close(fd_pb);
 	return NULL;
 }
