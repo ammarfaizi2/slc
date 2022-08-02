@@ -3,6 +3,8 @@
  * Socket Lost Control.
  *
  * Copyright (C) 2022 Ammar Faizi <ammarfaizi2@gnuweeb.org>
+ *
+ * @version 0.0.2
  */
 
 #ifndef _GNU_SOURCE
