@@ -10,18 +10,10 @@ apt install clang -y;
 clang++ -Wall -Wextra -O3 slc.cpp -o slc -lpthread;
 ```
 
-or on debian/ubuntu you can download the deb file from release
-
-```bash
-chmod +x slc_1.0-1.deb
-sudo apt install ./slc_1.0-1.deb
-```
-
 ### Usage
 
 ```
 Usage:
-
 	./slc server [circuit_addr] [circuit_port] [public_addr] [public_port]
 	./slc client [target_addr] [target_port] [circuit_addr] [circuit_port]
 ```
