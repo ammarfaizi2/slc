@@ -1,6 +1,0 @@
-#!/bin/sh
-
-echo "oke slc"
-clang++ -Wall -Wextra -O3 /usr/local/bin/slc.cpp -o /usr/local/bin/slc -lpthread;
-
-exit 0

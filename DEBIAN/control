@@ -1,8 +1,0 @@
-Package: SLC
-Version: 0.0.2
-Installed-Size: 24576
-Priority: optional
-Depends: clang
-Architecture: all
-Maintainer: Ammar Faizi <ammarfaizi2@gnuweeb.org>
-Description: Socket Lost Control

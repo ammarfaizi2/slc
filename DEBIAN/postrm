@@ -1,6 +1,0 @@
-#!/bin/sh
-
-rm -rf /usr/local/bin/slc
-echo "Done removing /usr/local/bin/slc"
-
-exit 0
